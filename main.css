@@ -116,3 +116,9 @@ h2 {
 .animate__animated animate__backInRight {
   animation-duration: 2s;
 }
+.skills {
+  text-align: center;
+  justify-content: space-around;
+  border: 5px;
+  background-color: grey;
+}
