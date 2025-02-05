@@ -119,6 +119,6 @@ h2 {
 .skills {
   text-align: center;
   justify-content: space-around;
-  border: 5px;
+  color: white;
   background-color: grey;
 }
