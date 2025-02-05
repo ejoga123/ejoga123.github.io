@@ -121,4 +121,6 @@ h2 {
   justify-content: space-around;
   color: white;
   background-color: grey;
+  margin-left: 50px;
+  margin-right: 50px;
 }
