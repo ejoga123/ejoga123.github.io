@@ -116,6 +116,13 @@ h2 {
 .animate__animated animate__backInRight {
   animation-duration: 2s;
 }
+.animate__animated animate__bounceInLeft {
+  animation-duration: 2s;
+}
+.animate__animated animate__bounceInRight {
+  animation-duration: 2s;
+}
+
 .skills {
   text-align: center;
   justify-content: space-around;
