@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: auto;
+  background-color: transparent;
+  height: 4000px;
+  margin: auto;
+}
+/* Start Header */
+
+.header .slider .intro h2 {
+  margin: 0 auto;
+  font-size: 50px;
+  text-shadow: 5px 5px 5px #252f31;
+  /*width: 650px;*/
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  padding: 5px 0;
+}
+
+.header .slider .intro button {
+  background: none;
+  color: #fff;
+  /*width: 140px;*/
+  margin-top: 40px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.header .navbar {
+  background-color: #252f31;
+  color: #fff;
+  overflow: hidden;
+  /*text-transform: uppercase;*/
+}
+
+.header .navbar h2 {
+  float: left;
+  text-transform: uppercase;
+}
+
+.header .navbar h2 span {
+  color: #2ecc71;
+}
+
+.header .navbar ul {
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.header .navbar ul li {
+  float: left;
+  padding: 10px;
+}
+
+.header .navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+  color: #2ecc71;
+}
+/* End Header */
+
+/* main content start */
+h2 {
+  text-align: center;
+  color: greenyellow;
+  margin-bottom: 50px;
+}
+.homepicture {
+  margin: 0 auto; /* Center the image horizontally */
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+/*pageintro start */
+.aboutme {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* pageintro end */
+
+/* about start */
+.about {
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: greenyellow;
+}
+.aboutme {
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+.animate__animated animate__backInRight {
+  animation-duration: 2s;
+}
